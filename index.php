@@ -26,14 +26,14 @@
 <body>
 	<header class="head">
 		<div class="container h-100">
-			<div class="row">
+			<div class="row text-center">
 				<div class="col-6 offset-3">
 					<figure>
-						
+						<img src="assets/img/logo.png">
 					</figure>
 				</div>
-				<div class="col-3 text-center"> 
-					<p>
+				<div class="col-3"> 
+					<p class="links">
 					  <a href="#" class="text-white"><span class="fab fa-instagram"></span></a>
 					  &nbsp;
 					  <a href="#" class="text-white"><span class="fab fa-facebook-square"></span></a>
@@ -53,32 +53,45 @@
 		</div>
 	</header>
 	<div class="historia">
-		<div class="row">
-			<div class="col-6 text-end">
-				
-			</div>
-			<div class="col-6 text-start">
-				<p>	
-					Conheça nossa história <br>
-					ConectaCar
-				</p>
-				<hr class="divisor">
-				<p>
-					Somos uma empresa formada por profissionais experientes <br>
-					e atuantes de maneira ininterrupta por mais de 10 anos na <br>
-					área de comercialização de frotas de pequeno, médio e <br>
-					grande porte.Temos grande experiência no setor automotivo e <br>
-					um conceito de atendimentomoderno e inovador, despontamos <br>
-					no mercado FROTISTA para nos colocar como uma empresa única, <br>
-					no suporte para a melhor decisão de compra. <br> <br>
-					Operacionalizamos e comercializamos a demanda que você precisa, <br>
-					com objetividade, <br>
-					profissionalismo, sem demagogia e/ou protecionismo<br>
-				</p>
-
+		<div class="container h-100">
+			<div class="row">
+				<div class="col-lg-6 text-end">
+					<figure>
+						<img src="assets/img/historia.png">
+					</figure>
+				</div>
+				<div class="col-lg-6 text-start">
+					<p class="upper-brand">Conheça nossa história</span></p>
+					<p><span class="brand black">Conecta</span><span class="brand blue">Car</span></p>
+					<hr class="divisor">
+					<p>
+						<br>
+						Somos uma empresa formada por profissionais experientes <br>
+						e atuantes de maneira ininterrupta por mais de 10 anos na <br>
+						área de comercialização de frotas de pequeno, médio e <br>
+						grande porte.Temos grande experiência no setor automotivo e <br>
+						um conceito de atendimentomoderno e inovador, despontamos <br>
+						no mercado FROTISTA para nos colocar como uma empresa única, <br>
+						no suporte para a melhor decisão de compra. <br> <br>
+						Operacionalizamos e comercializamos a demanda que você precisa, <br>
+						com objetividade, <br>
+						profissionalismo, sem demagogia e/ou protecionismo<br>
+					</p>
+				</div>
 			</div>
 		</div>
-		
+	</div>
+	<div class="vantagens">
+		<div class="container h-100">
+			<div class="row">
+				<div class="col-lg-5 text-start text-white vantagens-list">
+					<p class="upper-vantagens">Tudo que você precisa:</p>
+					<h1>Vantagens</h1>
+					<br><br>
+					<?php require("vantagens-itens.php") ?>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
