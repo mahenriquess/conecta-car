@@ -1,17 +1,24 @@
 html{
   /*font-size: 62.5%;*/
 }
-.head {
+.header {
   padding-bottom: calc(10rem - 4.5rem);
   background-image: url("../img/bghead.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  font-family: 'Vegur Light'; 
 }
 .links{
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
+.text-white {
+  color: #fff !important;
+}
+strong {
+  font-weight: bolder;
+} 
 .text-shadow-07{
   text-shadow: 0px 7px 6px rgba(0,0,0,0.7);
 }
@@ -19,10 +26,8 @@ html{
   background-color: #fff;
   padding: 5rem; 
 }
-.historia img{
-  height: 200px;
-  margin-top: -50px;
-  margin-left: -50px;
+figure{
+  margin: 1rem 0px !important;
 }
 .upper-brand{
   margin-bottom: -10px;
@@ -33,24 +38,41 @@ html{
   font-size: 2rem;
   font-weight: 700;
 }
-.black{
+.text-black{
   color:#000;
 }
-.blue{
+.text-blue{
   color: #0363bc;
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
+
+hr:not([size]) {
+  height: 1px;
 }
 .divisor {
-  margin: -1rem 1rem 1rem 0rem;
-  background-color: currentColor;
-  width: 9rem;
-  color: #0363bc;
-  border: 0;
-  opacity: 1;
+  margin: -1rem 1rem 1rem 0rem !important;
+  background-color: currentColor !important;
+  width: 9rem !important;
+  color: #0363bc !important;
+  border: 0 !important;
+  opacity: 1 !important;
 }
 .vantagens {
+  background: rgb(0,97,188);
+  background: linear-gradient(90deg, rgba(0,97,188,1) 0%, rgba(51,55,114,1) 100%);
+}
+.vantagens-img{
+  height: 40rem;
   background-image: url("../img/vantagens.png");
-  background-position: center;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   background-size: cover;
 }
 .upper-vantagens{
@@ -59,23 +81,98 @@ html{
 .vantagens-list{
   padding-top: 4.5rem;
 }
-.vantagem-itens{
-  font-size: 0.75rem;
-  align-content: center;
+.vantagens-itens{
+  font-size: 1rem;
 }
-@media (min-width: 992px) {
-.head {
+.number{
+  height: 50px;
+  width: 50px;
+  background-color: #002460;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom:15px;
+}
+.row{
+  margin-bottom: 0px !important;
+}
+.vantagens h2{
+  font-weight: 700;
+  margin:0;
+}
+@media (min-width: 1200px) {
+  .header {
     height: 100vh;
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
-.historia img{
-  height: 400px;
-  margin-top: -50px;
+  .historia img{
+    height: 450px;
+    margin-left: -150px;
+  }
+  .vantagens {
+    min-height: 40rem;
+  } 
+  .links{
+    font-size: 1.5rem;
+  }
 }
-.vantagens {
-  height: 100vh;
-  min-height: 45rem;
-}  
+@media(max-width: 1200px){
+  .historia img{
+    height: 350px;
+    margin-left: -125px;
+  }
+}
+@media(max-width: 992px){
+  .historia img{
+    height: 450px;
+    margin-left: 20px;
+  }
+}
+@media(max-width: 650px){
+  .logo img{
+    width: 150px;
+  }
+  .historia img{
+    height: 350px;
+    margin-left: -50px;
+  }
+  .vantagens{
+    background: rgb(0,97,188);
+    background: linear-gradient(180deg, rgba(0,97,188,1) 0%, rgba(51,55,114,1) 100%);
+  }
+  .vantagens-img{
+    display: none
+  }
+  h2{
+    font-size: 30px;
+  }
+  h5{
+    font-size: 16px;
+  }
+  .links{
+    font-size: 1rem;
+  }
+}
+@media(max-width: 420px){
+  .historia img{
+    height: 200px;
+    margin-left: -30px;
+  }
+}
+
+/* FONTES */
+
+@font-face {
+  font-family: 'Vegur Regular';
+  src: url(../fonts/vegur/Vegur-Regular.otf);
+}
+@font-face {
+  font-family: 'Vegur Bold';
+  src: url(../fonts/vegur/Vegur-Bold.otf);
+}
+@font-face {
+  font-family: 'Vegur Light';
+  src: url(../fonts/vegur/Vegur-Light.otf);
 }

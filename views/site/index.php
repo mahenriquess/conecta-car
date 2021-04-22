@@ -18,18 +18,18 @@
 	<link rel="icon" href="images/icon.png" type="image/png" sizes="16x16">
 	<link rel="canonical" itemprop="url" href="" />
 
-	<?php require"links.php" ?>
+	<?php require "links.php"; ?>
 </head>
 <body>
-	<header class="head">
-		<div class="container h-100">
-			<div class="row text-center">
-				<div class="col-6 offset-3">
-					<figure>
+	<header class="header">
+		<div class="container center">
+			<div class="row">
+				<div class="col s6 offset-s3">
+					<figure class="logo">
 						<img src="public/site/img/logo.png">
 					</figure>
 				</div>
-				<div class="col-3"> 
+				<div class="col s3"> 
 					<p class="links">
 					  <a href="#" class="text-white"><span class="fab fa-instagram"></span></a>
 					  &nbsp;
@@ -37,56 +37,55 @@
 					</p> 
 				</div>
 			</div>
-			<div class="row h-100 align-items-center justify-content-center text-center text-shadow-07">
-				<div class="col-lg-10 align-self-end">
-					<h1 class="text-white font-weight-light">CONECTAMOS <br> A SUA <strong>NECESSIDADE</strong> <br> COM NOSSA <strong>SOLUÇÃO</strong></h1>
+			<div class="row text-shadow-07">
+				<div class="col s12">
+					<h2 class="text-white">CONECTAMOS <br> A SUA <strong>NECESSIDADE</strong> <br> COM NOSSA <strong>SOLUÇÃO</strong></h2>
 				</div>
-				<div class="col-lg-8 align-self-baseline">
-					<p class="text-white font-weight-light mb-5">
-						Operacionalizamos e comercializamos a <br> demanda que você precisa
-					</p>
+				<div class="col s12">
+					<h5 class="text-white">Operacionalizamos e comercializamos a <br> demanda que você precisa</h5> 
 				</div>
 			</div>
 		</div>
 	</header>
 	<div class="historia">
-		<div class="container h-100">
+		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 text-end">
+				<div class="col l6 m12 s12">
 					<figure>
 						<img src="public/site/img/historia.png">
 					</figure>
 				</div>
-				<div class="col-lg-6 text-start">
-					<p class="upper-brand">Conheça nossa história</span></p>
-					<p><span class="brand black">Conecta</span><span class="brand blue">Car</span></p>
+				<div class="col l6 m12 s12 left-align">
+					<p class="upper-brand"> Conheça nossa história</p>
+					<p><span class="brand black-text">Conecta</span><span class="brand blue-text">Car</span></p>
 					<hr class="divisor">
 					<p>
 						<br>
-						Somos uma empresa formada por profissionais experientes <br>
-						e atuantes de maneira ininterrupta por mais de 10 anos na <br>
-						área de comercialização de frotas de pequeno, médio e <br>
-						grande porte.Temos grande experiência no setor automotivo e <br>
-						um conceito de atendimentomoderno e inovador, despontamos <br>
-						no mercado FROTISTA para nos colocar como uma empresa única, <br>
-						no suporte para a melhor decisão de compra. <br> <br>
-						Operacionalizamos e comercializamos a demanda que você precisa, <br>
-						com objetividade, <br>
-						profissionalismo, sem demagogia e/ou protecionismo<br>
+						Somos uma empresa formada por profissionais experientes 
+						e atuantes de maneira ininterrupta por mais de 10 anos na
+						área de comercialização de frotas de pequeno, médio e 
+						grande porte.Temos grande experiência no setor automotivo e 
+						um conceito de atendimentomoderno e inovador, despontamos 
+						no mercado FROTISTA para nos colocar como uma empresa única, 
+						no suporte para a melhor decisão de compra.
+						<br><br>	
+						Operacionalizamos e comercializamos a demanda que você precisa, 
+						com objetividade, 
+						profissionalismo, sem demagogia e/ou protecionismo.
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="vantagens">
-		<div class="container h-100">
-			<div class="row">
-				<div class="col-lg-5 text-start text-white vantagens-list">
-					<p class="upper-vantagens">Tudo que você precisa:</p>
-					<h1>Vantagens</h1>
-					<br><br>
-					<?php require("vantagens-itens.php") ?>
-				</div>
+	 <div class="vantagens">
+		<div class="row">
+			<div class="col s12 m12 l6 left-align text-white vantagens-list">
+				<p class="upper-vantagens">Tudo que você precisa:</p>
+				<h2>Vantagens</h2>
+				<br><br>
+				<?php require "vantagens-itens.php";?>
+			</div>
+			<div class="col s12 m12 l6 left-align vantagens-img">
 			</div>
 		</div>
 	</div>
