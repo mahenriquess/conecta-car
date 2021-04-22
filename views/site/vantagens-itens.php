@@ -4,7 +4,7 @@
 								<div class="row">
 									<div class="col-3">
 										<figure>
-											<img src="assets/img/01.png">
+											<img src="public/site/img/01.png">
 										</figure>
 									</div>
 									<div class="col-9 ">
@@ -16,7 +16,7 @@
 								<div class="row">
 									<div class="col-3">
 										<figure>
-											<img src="assets/img/02.png">
+											<img src="public/site/img/02.png">
 										</figure>
 									</div>
 									<div class="col-9">
@@ -31,7 +31,7 @@
 								<div class="row">
 									<div class="col-3">
 										<figure>
-											<img src="assets/img/03.png">
+											<img src="public/site/img/03.png">
 										</figure>
 									</div>
 									<div class="col-9">
@@ -43,7 +43,7 @@
 								<div class="row">
 									<div class="col-3">
 										<figure>
-											<img src="assets/img/04.png">
+											<img src="public/site/img/04.png">
 										</figure>
 									</div>
 									<div class="col-9">
@@ -58,7 +58,7 @@
 								<div class="row">
 									<div class="col-3">
 										<figure>
-											<img src="assets/img/05.png">
+											<img src="public/site/img/05.png">
 										</figure>
 									</div>
 									<div class="col-9">
@@ -70,7 +70,7 @@
 								<div class="row">
 									<div class="col-3">
 										<figure>
-											<img src="assets/img/06.png">
+											<img src="public/site/img/06.png">
 										</figure>
 									</div>
 									<div class="col-9">
@@ -85,7 +85,7 @@
 								<div class="row">
 									<div class="col-3">
 										<figure>
-											<img src="assets/img/07.png">
+											<img src="public/site/img/07.png">
 										</figure>
 									</div>
 									<div class="col-9">
@@ -97,7 +97,7 @@
 								<div class="row">
 									<div class="col-3">
 										<figure>
-											<img src="assets/img/08.png">
+											<img src="public/site/img/08.png">
 										</figure>
 									</div>
 									<div class="col-9">
@@ -112,7 +112,7 @@
 								<div class="row">
 									<div class="col-3">
 										<figure>
-											<img src="assets/img/09.png">
+											<img src="public/site/img/09.png">
 										</figure>
 									</div>
 									<div class="col-9">
