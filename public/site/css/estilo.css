@@ -5,7 +5,7 @@
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
-	font-family: 'Vegur Light'; 
+	font-family: 'Vegur Regular'; 
 }
 .links{
 	font-size: 1rem;
@@ -13,6 +13,9 @@
 .text-white {
 	color: #fff !important;
 }
+strong.header {
+	font-family: 'Vegur Bold'; 
+} 
 strong {
 	font-weight: bolder;
 } 
@@ -163,6 +166,9 @@ h3{
 	margin-right: 100px;
 	margin-top: -18px	;
 }
+.marcas-dir-img{
+	height: 193px;
+}
 .marcas-dir h4{
 	padding:13px 0px 0px 50px;
 }
@@ -183,10 +189,13 @@ footer{
 	color: #2196F3;
 }
 .footer-esq{
+	height: 350px;
 	background-color: #002460;
 }
 .vl {
-  border-left: 2px solid #2196F3;
+  border: 2px solid #2196F3;
+  margin-left: 50%;
+  margin-right: 50%;
   height: 60px;
 }
 .hl {	
@@ -220,6 +229,9 @@ footer{
 .copyright{
 	margin-bottom: 3rem;
 }
+.endereco-item{
+	margin-left: -10px !important;	
+}
 @media (min-width: 1200px) {
 	.header {
 		height: 100vh;
@@ -242,7 +254,8 @@ footer{
 		padding: 150px 0px 100px 0px;
 	}
 	.marcas-dir-img{
-		margin: 0px;
+		margin: 0px 0px -6px -60px;
+		height: 193px;
 	}
 }
 @media(max-width: 1200px){
@@ -267,10 +280,10 @@ footer{
 		padding: 50px 50px 50px 50px;
 	}
 	.marcas-dir-img{
-		margin: 0px;
+		margin: 0px 0px -6px -60px;
 	}
 	footer{
-		margin-top: 0;
+		margin-top: -15px;
 	}
 }
 @media(max-width: 992px){
@@ -286,6 +299,9 @@ footer{
 	}
 	.marcas-esq-img{
 		width: 500px;
+	}
+	.marcas-dir-img{
+		margin: 0px 0px -6px 0px;
 	}
 	.back{
 		margin-top: 0px;
@@ -329,6 +345,9 @@ footer{
 	}
 	.marcas-esq-img{
 		width: 300px;
+	}
+	.marcas-dir-img{
+		width: 100%;
 	}
 }
 

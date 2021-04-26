@@ -116,7 +116,7 @@
 					<div class="col l3 m6 s12"> 
 						<div class="espec-item espec-dark">
 							<span class="espec-icon blue-text"><i class="far fa-check-circle"></i><br></span>
-							COMPRAS DE ATIVO
+							COMPRA DE ATIVOS
 							<?php require "btn-orcamento.php"; ?>
 						</div>
 					</div>
@@ -219,30 +219,10 @@
 							</div>
 							<div class="row">
 								<div class="col s5 m5 l5 right-align text-white">
-									<p>(11) 3568-2484 <br> (11) 93470-0283</p>
-								</div>
-								<div class="col s1 m1 l1"><div class="vl"></div></div>
-								<div class="col s6 m6 l6 left-align blue-text">
-									<p>Av. Das Nações Unidas | SP</p>
-								</div>
-							</div>
-							<div class="hl"></div>
-							<div class="row">
-								<div class="col s5 m5 l5 right-align text-white">
-									<p>(11) 2847-4628 <br> (11) 93470-0283</p>
-								</div>
-								<div class="col s1 m1 l1"><div class="vl"></div></div>
-								<div class="col s6 m6 l6 left-align blue-text">
-									<p>Av. Paulista | SP</p>
-								</div>
-							</div>
-							<div class="hl"></div>
-							<div class="row">
-								<div class="col s5 m5 l5 right-align text-white">
 									<p>(11) 4318-5564 <br> (11) 98266-0283</p>
 								</div>
 								<div class="col s1 m1 l1"><div class="vl"></div></div>
-								<div class="col s6 m6 l6 left-align blue-text">
+								<div class="col s6 m6 l6 left-align blue-text endereco-item">
 									<p>Alameda Caulim São Caetano | SP</p>
 								</div>
 							</div>
@@ -261,22 +241,6 @@
 							</div>
 						</div>
 						<div>
-							<div class="row endereco">
-								<div class="col s1 l1 m1 text-dark">
-									<span> <i class="fas fa-map-marked-alt"></i></span>
-								</div>
-								<div class="col s11 m11 l11 text-white">
-									Av. das Nações Unidas, 14.171, 15º andar, <br> Marble Tower São Paulo, 04794-000
-								</div>
-							</div>
-							<div class="row endereco">
-								<div class="col s1 l1 m1 text-dark">
-									<span> <i class="fas fa-map-marked-alt"></i></span>
-								</div>
-								<div class="col s11 m11 l11 text-white">
-									Av. Paulista, 2.300-andar Pilotis-Paulista Consolação, <br> 323 Cerqueira César São Paulo-SP 01310-300
-								</div>
-							</div>
 							<div class="row endereco">
 								<div class="col s1 l1 m1 text-dark">
 									<span> <i class="fas fa-map-marked-alt"></i></span>
