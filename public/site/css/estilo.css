@@ -7,6 +7,10 @@
 	background-size: cover;
 	font-family: 'Vegur Regular'; 
 }
+.logo img{
+	width: 284px;
+	height: 60px;
+}
 .links{
 	font-size: 1rem;
 }
@@ -167,7 +171,7 @@ h3{
 	margin-top: -18px	;
 }
 .marcas-dir-img{
-	height: 193px;
+	height: 187px;
 }
 .marcas-dir h4{
 	padding:13px 0px 0px 50px;
@@ -255,7 +259,7 @@ footer{
 	}
 	.marcas-dir-img{
 		margin: 0px 0px -6px -60px;
-		height: 193px;
+		height: 187px;
 	}
 }
 @media(max-width: 1200px){
