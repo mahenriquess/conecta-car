@@ -314,6 +314,7 @@ footer{
 @media(max-width: 650px){
 	.logo img{
 		width: 150px;
+		height: 30px;
 	}
 	.historia img{
 		height: 325px;
