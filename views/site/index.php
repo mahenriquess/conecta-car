@@ -105,59 +105,42 @@
 				</div>
 			</div>
 			<div class="center">
-				<div class="row">
-					<div class="col l3 m6 s12">
+				<div class="row"> <!---- SE TIVER +7 ITENS, USAR L3 COM 4 POR LINHA ---> 
+					<div class="col l2 m6 s12 offset-l1">
 						<div class="espec-item espec-light">
 							<span class="espec-icon"><i class="fas fa-user-tie"></i><br></span>
-							VENDAS CORPORATIVAS
+							VENDAS CORPORATIVAS <br>
 							<?php require "btn-orcamento.php"; ?>
 						</div>
 					</div>
-					<div class="col l3 m6 s12"> 
+					<div class="col l2 m6 s12"> 
 						<div class="espec-item espec-dark">
 							<span class="espec-icon blue-text"><i class="far fa-check-circle"></i><br></span>
-							COMPRA DE ATIVOS
+							COMPRA DE ATIVOS <br>
 							<?php require "btn-orcamento.php"; ?>
 						</div>
 					</div>
-					<div class="col l3 m6 s12">
+					<div class="col l2 m6 s12">
 						<div class="espec-item espec-light">
 							<span class="espec-icon"><i class="fas fa-shield-alt"></i><br></span>
-							BLINDAGEM
+							BLINDAGEM <br>
 							<?php require "btn-orcamento.php"; ?>
 						</div>
 					</div>
-					<div class="col l3 m6 s12"> 
+					<div class="col l2 m6 s12"> 
 						<div class="espec-item espec-dark">
 							<span class="espec-icon blue-text"><i class="fas fa-car"></i><br></span>
-							GESTÃO DE FROTAS
+							GESTÃO DE FROTAS <br>
 							<?php require "btn-orcamento.php"; ?>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col l3 m6 s12">
+					<div class="col l2 m6 s12">
 						<div class="espec-item espec-light">
 							<span class="espec-icon"><i class="far fa-file-alt"></i><br></span>
 							PCD - COMERCIALIZAÇÃO <br> E DOCUMENTAÇÃO
 							<?php require "btn-orcamento.php"; ?>
 						</div>
 					</div>
-<!-- 						<div class="col l3 m6 s12"> 
-						<div class="espec-item espec-dark">	
-						<?php // require "btn-orcamento.php"; ?>							
-						</div>
-					</div>
-					<div class="col l3 m6 s12">
-						<div class="espec-item espec-light">
-						<?php // require "btn-orcamento.php"; ?>								
-						</div>
-					</div>
-					<div class="col l3 m6 s12"> 
-						<div class="espec-item espec-dark">	
-						<?php // require "btn-orcamento.php"; ?>							
-						</div>
-					</div> -->
 				</div>
 			</div>
 
@@ -219,7 +202,7 @@
 							</div>
 							<div class="row">
 								<div class="col s5 m5 l5 right-align text-white">
-									<p>(11) 4318-5564 <br> (11) 98266-0283</p>
+									<p>(11) 4318-5564 <br> (11) 93474-0283</p>
 								</div>
 								<div class="col s1 m1 l1"><div class="vl"></div></div>
 								<div class="col s6 m6 l6 left-align blue-text endereco-item">
@@ -268,7 +251,7 @@
 						<span class="text-white">ConectaCar 2021| Todos os direitos reservados</span>
 					</div>
 					<div class="col l4 s6 m6 offset-l2"> 
-						<span class="text-dark">Desenvolvido pela <a href="#" class="text-dark"> Agência Mazukim </a> </span>
+						<span class="text-dark">Desenvolvido pela <a href="www.mazukim.com.br" class="text-dark"> Agência Mazukim </a> </span>
 					</div>
 				</div>
 			</div>
